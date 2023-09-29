@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(223, 236, 218);
+}
+
+.h1{
+    text-align: center;
+    color:blue;
+}
+.h1 span{
+    color: #000;
+}
+.diver{
+    /* float: right; */
+    /* width: 100%; */
+    padding-left: 100px;
+    padding-right: 100px;
+    /* background-color: #000; */
+}
+.diver h2{
+    font-size: 30px;
+}
+.diver .p{
+    font-size: 25px;
+}
+.dive{
+    display: flex;
+    padding-left: 00px;
+    
+}
+.di{
+    width: 20%;
+    margin: 20px;
+    height: 30%;
+}
+.di:hover{
+    /* border: 2px solid blue; */
+    /* position: relative;
+    z-index: 1; */
+}
+.di .oo{
+    color: #000;
+    font-size: 20px;
+   
+    
+}
+.di:hover{
+    overflow: hidden;
+}
+.di:hover .oo{
+    /* border-bottom: 1px solid black; */
+    text-decoration:underline;
+    /* position: absolute;
+    top: 0;
+    height: 100%; */
+    /* align-items: baseline; */
+    /* background: transparent; */
+    /* color: #e90202;
+    display: block;
+    opacity: 0.2; */
+    
+}
+.ka{
+    display: none;
+}
+.di:hover .ka{
+    /* bottom: 0;
+    display: flex;
+    position: absolute; */
+    /* padding: 20px;
+    background: #e90202;
+    opacity: 0.6;
+    color: white;
+    font-size: 20px;
+    height: 40%; */
+    top: 50px;
+    /* transform: translateX(-50%); */
+    /* left: 50%; */
+    transition: 5s;
+}
+.o img{
+    width: 100%;
+    height: 100%;
+}
+.o{
+    overflow: hidden;
+    /* background-color: #e90202; */
+    width: 100%;
+    height: 100%;
+}
+.di img:hover{
+overflow: hidden;
+   transform: scale(2.5);
+   transition: 5s;
+    /* height: 130%;
+    width: 130%;
+    top: 0;
+    left: 0;
+    content: "";
+    background: #cccccc;
+    position: absolute;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: rotate(110deg) translateY(-50%);
+    -moz-transform: rotate(110deg) translateY(-50%);
+    -ms-transform: rotate(110deg) translateY(-50%);
+    -o-transform: rotate(110deg) translateY(-50%);
+    transform: rotate(110deg) translateY(-50%); */
+        
+    /* position: relative; */
+    /* z-index: -1; */
+    /* mask-position: center;
+    width: 202%;
+    transition: 5s; */
+}
+
+.bien{
+    display: flex;
+    bottom: 0;
+    /* height: 20%; */
+}
+.bi{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    background:#f0cece;
+    /* height: 100%; */
+    /* height: 247px; */
+}
+.bin{
+    width: 60%;
+    
+}
+.bin img{
+    width: 100%;
+    /* height: 50%; */
+}

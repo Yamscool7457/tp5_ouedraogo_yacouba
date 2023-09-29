@@ -1,0 +1,22 @@
+
+body {
+    background-color: blue;
+}
+.formulaire{
+    background-color: white;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    row-gap: 15px;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 100px 50px;
+}
+input {
+    margin-left: 150px;
+ }
+.submit {
+    margin-left: 200px;
+}
